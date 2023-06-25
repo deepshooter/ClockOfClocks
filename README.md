@@ -1,2 +1,2 @@
 # ClockOfClocks
-A clock app in Jetpack Compose
+A Clock Of Clocks app in Jetpack Compose
