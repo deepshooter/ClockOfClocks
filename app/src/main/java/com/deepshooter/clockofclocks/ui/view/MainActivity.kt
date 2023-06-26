@@ -1,4 +1,4 @@
-package com.deepshooter.clockofclocks
+package com.deepshooter.clockofclocks.ui.view
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
