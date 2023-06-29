@@ -14,6 +14,7 @@ import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.tooling.preview.Preview
 import com.deepshooter.clockofclocks.model.Clock
 import com.deepshooter.clockofclocks.model.Speed
+import com.deepshooter.clockofclocks.ui.theme.handColor
 import kotlin.math.cos
 import kotlin.math.sin
 
@@ -38,7 +39,7 @@ fun Clock(
         targetValueByState = { it.minuteRadian.toFloat() }
     )
 
-    val handColor = MaterialTheme.colorScheme.primary
+    val handColor = MaterialTheme.colorScheme.handColor
     val handWidth = 2f * LocalDensity.current.density
 
     Canvas(modifier = modifier, onDraw = {
